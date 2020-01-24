@@ -16,6 +16,7 @@ public class HomePage extends BasePage {
 	public HomePage() {
 		// TODO Auto-generated constructor stub
 		PageFactory.initElements(driver, this);
+		System.out.println("hai");
 	}
 	
 	public WebElement username()
